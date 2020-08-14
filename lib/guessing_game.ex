@@ -5,7 +5,7 @@ defmodule GuessingGame do
     {maximum, _} = (IO.gets("Maximum number: ") |> Integer.parse)
     number = Enum.random(0..maximum)
     IO.puts "Well, I have thought of a number between 0 and #{maximum}"
-    IO.puts "The number I have thought of is #{number}"
+    #IO.puts "The number I have thought of is #{number}"
     input(number, 0)
   end
 
